@@ -1,4 +1,2 @@
+<img width="2305" height="575" alt="4211f438497f2b39a251983d08d9cf13_918335f6-4417-4aad-b09e-ed88f4a63cbd-Photoroom" src="https://github.com/user-attachments/assets/ec389438-fccc-4873-851b-8785d1102085" />
 
-<img width="2752" height="1536" alt="615a03779f73407d340784537a1aaf0c_9faccabf-cede-4a0b-ac80-734772776c48" src="https://github.com/user-attachments/assets/fbf8ad7d-74ef-40a2-aa10-75493951584e" />
-
-## Minecraft Modpack - Aeronautics Sky Islands
