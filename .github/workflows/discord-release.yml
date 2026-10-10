@@ -1,0 +1,76 @@
+name: Discord release announcement
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Опубликовать только этот тег (пусто = все релизы, от старых к новым)"
+        required: false
+        type: string
+      dry_run:
+        description: "Только показать, что будет отправлено (ничего не писать в Discord)"
+        required: false
+        type: boolean
+        default: true
+      delay_seconds:
+        description: "Пауза между постами при backfill (секунды)"
+        required: false
+        type: string
+        default: "3"
+  pull_request:
+    paths:
+      - ".github/scripts/**"
+      - ".github/workflows/discord-release.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Unit tests
+        run: python -m unittest discover -s .github/scripts -p "test_*.py" -v
+
+  announce:
+    needs: test
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Post release(s) to Discord
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            args=(--mode backfill --delay "${{ inputs.delay_seconds }}")
+            if [ "${{ inputs.dry_run }}" = "true" ]; then
+              args+=(--dry-run)
+            fi
+            if [ -n "${{ inputs.tag }}" ]; then
+              args+=(--tag "${{ inputs.tag }}")
+            fi
+            python .github/scripts/discord_release.py "${args[@]}"
+          else
+            if [ -z "${DISCORD_WEBHOOK_URL:-}" ]; then
+              echo "Секрет DISCORD_WEBHOOK_URL не задан. Добавьте его в Settings → Secrets and variables → Actions."
+              exit 1
+            fi
+            python .github/scripts/discord_release.py --mode event --event-path "${GITHUB_EVENT_PATH}"
+          fi
