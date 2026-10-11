@@ -58,17 +58,3 @@ Explore your first island, find an aerolite, craft your first paraglider, create
 
 > 💬 Tip:
 > Before you begin, make sure you have enough RAM (6-8 GB recommended) for smooth island generation and flying machines.
-
-## Discord: анонсы релизов
-
-Новые GitHub Release автоматически публикуются в канал `#announcements` через webhook.
-
-1. В Discord создайте webhook для `#announcements` и скопируйте URL.
-2. В GitHub: **Settings → Secrets and variables → Actions** → секрет `DISCORD_WEBHOOK_URL`.
-3. Проверка backfill: **Actions → Discord release announcement → Run workflow**.
-   - Сначала оставьте **dry_run = true** (ничего не уйдёт в Discord).
-   - Затем для одного тега (например `v0.3.0`) поставьте **dry_run = false**.
-   - Чтобы выгрузить все релизы от старых к новым, оставьте тег пустым и выключите dry-run.
-
-Подробности, лимиты Discord и поведение картинок в приватном репозитории: [docs/discord-announcements.md](docs/discord-announcements.md).
-
