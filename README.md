@@ -1,4 +1,5 @@
-<img width="2400" height="929" alt="text-logo" src="https://github.com/user-attachments/assets/f44fc333-c5e9-40f4-8cb6-e81407ce238d" />
+<img width="462" height="184" alt="Text-export" src="https://github.com/user-attachments/assets/6e7ba079-7c39-464b-8d28-44ade552c0df" />
+
 
 
 ## _Rise above the clouds. Build your flying fleet. Conquer the skies._
