@@ -12,10 +12,6 @@
 > You'll face the challenges of navigating these vast floating islands, and here you're given many tools to overcome these challenges.
 >
 
-
-<img width="2400" height="560" alt="da9a0bfa41c780c44ce2df25aefebf1d_f6b422c8-cab6-40cc-ab24-879c1340b176-Photoroom" src="https://github.com/user-attachments/assets/2ceb21ed-00bf-4b6c-886d-24b6a5dc6b21" />
-
-
 ## ✨ Key Features
 | What does the modpack add or change? | Mods that were used | Description |
 | :---: | :---: | :---: |
