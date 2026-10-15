@@ -5,7 +5,7 @@
 
 ## _Rise above the clouds. Build your flying fleet. Conquer the skies._
 
-> Aeronautics Sky Islands is a modpack for Minecraft where the familiar world gives way to a vast sky, floating islands, and the latest in aircraft engineering. There's no solid ground beneath your feet—only clouds, the void between islands, and your ingenuity to connect them.
+> Aeronautics Ikaria is a modpack for Minecraft where the familiar world gives way to a vast sky, floating islands, and the latest in aircraft engineering. There's no solid ground beneath your feet—only clouds, the void between islands, and your ingenuity to connect them.
 > 
 > The goal of this build is to introduce a new world and creative tools for conquering it. We also want to make it universally accessible to both beginners and experienced "create" players.
 
