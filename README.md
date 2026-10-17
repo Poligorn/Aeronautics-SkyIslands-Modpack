@@ -3,56 +3,48 @@
 
 
 
-## _Rise above the clouds. Build your flying fleet. Conquer the skies._
+Aeronautics Ikaria is a Minecraft modpack where solid ground gives way to an endless sky. Beneath you lie only clouds and the void; ahead, scattered lands waiting to be reached, and the engineering to reach them.
+Create With a Purpose
 
-> Aeronautics Ikaria is a modpack for Minecraft where the familiar world gives way to a vast sky, floating islands, and the latest in aircraft engineering. There's no solid ground beneath your feet—only clouds, the void between islands, and your ingenuity to connect them.
-> 
-> The goal of this build is to introduce a new world and creative tools for conquering it. We also want to make it universally accessible to both beginners and experienced "create" players.
+In most packs, Create is a toy. You build a factory because you can, automate because it's satisfying, and end up with machines that solve problems nobody had.
 
-> You'll face the challenges of navigating these vast floating islands, and here you're given many tools to overcome these challenges.
->
+In Ikaria, every machine answers a real need.
 
-## ✨ Key Features
-| What does the modpack add or change? | Mods that were used | Description |
-| :---: | :---: | :---: |
-| Flights, physics | Craft fully functional airships, airplanes, and flying machines from Create blocks |  Create: Aeronautics, Create, Sable|
-| Basic world generation | the world consists of lands floating in the sky, separated by void | Isabel's Aeroscapes |
-| Mechanisms, factories, automation | conveyors, shafts, steam engines, and automation | Create, Create Big Cannons, Create Encased, Create Slice & Dice, Create: Bells & Whistles, Create: Connected, Create: Copycats+, Create: Design n' Decor, Create: Interiors, Create: Numismatics |
+There is no ground to walk on, so you need wings, a balloon, a ship. Resources are scattered across distant islands, so you need transport, logistics, cargo lifts. Your home island is small and finite, so you need compact, efficient production. The sky is dangerous, so you need safer routes, better engines, and eventually cannons.
 
-- 👨‍🌾 Expanded interaction with villagers, new types of villagers for the Create and Farmers Delight mods
+Every gear you place pushes you further: to the next island, the next resource, the next horizon. Engineering isn't a side hobby here; it's how you survive, travel and grow. The world creates the problem, and Create is your answer.
 
-- 🎣 Expanded fishing with the Starcatcher mod, which will be further developed
+We built Ikaria around three goals:
 
-- 🪎 Two mods that change all interactions with chests: "Lootr" and "Clavis," which will make treasure hunting more interesting.
+    A world that demands engineering: sparse resources, dangerous gaps and distant lands that reward those who build their way there.
+    Threats worth defending against: raids that make cannons, guns and fortifications a necessity, not decoration.
 
-- 💀 Mods for more comfortable island exploration without too much frustration: Forgiving Void, Corpse, Artifacts
+✨ Key Features
+What changes 	Description 	Mods
+Flight & physics 	Build working airships, planes and flying machines from Create blocks, with real physics 	Create: Aeronautics, Create, Sable
+World generation 	A world of lands suspended above the void 	Isabel's Aeroscapes
+Mechanisms & automation 	Conveyors, shafts, steam engines, factories and an economy 	Create, Create Encased, Create Slice & Dice, Bells & Whistles, Create: Connected, Copycats+, Design n' Decor, Create: Interiors, Create: Numismatics
+Defense & combat 	Cannons, firearms and fortifications to hold your island against raids 	Create Big Cannons, Create: Gunsmithing
 
-- 🪂 Paraglider, allowing you to travel between islands and increase your maximum health and stamina.
+    👨‍🌾 Villagers: expanded trading and new professions for Create and Farmer's Delight.
+    🎣 Fishing: reworked with Starcatcher, with more to come.
+    🪎 Treasure hunting: Lootr and Clavis turn every chest into a personal find worth looking for.
+    💀 Fair exploration: Forgiving Void, Corpse and Artifacts let you take risks without losing hours of progress.
+    🪂 Paragliding: glide between islands and grow your health and stamina along the way.
 
-  etc.
+...and much more.
+🗓️ Coming Next
 
-## 🗓️ Planned for the future
+    📔 Explorer's journals. Instead of a wall of guides, you learn the way the world's past adventurers did: through their diaries, hidden in chests across the sky. Each one teaches a piece of Create, flight or survival, so learning becomes part of the adventure. A short note at the start gets you going.
+    ⚒️ Recipes balanced for scarcity, so every resource matters.
+    🏴‍☠️ Server foundations: private ships, private islands, claims.
+    🌏 More structures and biomes, plus a stronger endgame.
 
-- 📔 A gentle learning process through the journals of former adventurers, containing all the information about the "Creation" mode and other aspects of the game world, which can be found in chests throughout the world. A scrap of information is also given at the beginning, containing starting instructions.
+⚙️ Technical Details
 
-- ⚒️ Balanced recipes for resource shortages in the world.
+    Minecraft: 1.21.1
+    Loader: NeoForge 21.1.250
 
-- 🏴‍☠️ A foundation for servers with private ships and private islands.
+    💬 Tip: allocate 6–8 GB of RAM for smooth world generation and flight.
 
-- 🌏 More buildings and biomes, as well as an improved endgame.
-
-**Technical Specifications**
-Minecraft Version: 1.21.1
-Mod Loader: NeoForge 1.21.228
-
-** Added shader "Complementary Shaders - Unbound" **
-## 🚀 Start Your Sky Adventures
-
-Explore your first island, find an aerolite, craft your first paraglider, create your first hot air balloon, navigate between islands, and build a floating empire. In the world of Aeronautics Sky Islands, the sky is not the limit; it's just the beginning.
-
-**Enjoy the game and fair winds, Captain! ⛅**
-
-
-
-> 💬 Tip:
-> Before you begin, make sure you have enough RAM (6-8 GB recommended) for smooth island generation and flying machines.
+Fair winds, Captain! ⛅
